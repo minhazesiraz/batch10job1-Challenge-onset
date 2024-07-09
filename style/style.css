@@ -95,3 +95,35 @@ h2 {
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
     margin: 16px 0;
 }
+
+.inspiration,
+.targets {
+    text-align: center;
+    max-width: 1140px;
+    margin: auto;
+}
+
+.inspiration .iframe-card {
+    border: 1px solid gray;
+    border-radius: 8px;
+    padding: 5px;
+    text-align: center;
+}
+
+.inspiration iframe {
+    display: inline-block;
+    border-radius: 8px;
+}
+
+.skills {
+    display: flex;
+    justify-content: space-around;
+    gap: 10px;
+}
+
+.skill-card {
+    background: #f9f9f9;
+    padding: 16px;
+    border-radius: 8px;
+    margin: 16px 0;
+}
