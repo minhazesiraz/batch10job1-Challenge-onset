@@ -115,15 +115,90 @@ h2 {
     border-radius: 8px;
 }
 
-.skills {
+.targets .skills {
     display: flex;
     justify-content: space-around;
     gap: 10px;
 }
 
-.skill-card {
+.targets .skill-card {
     background: #f9f9f9;
     padding: 16px;
     border-radius: 8px;
     margin: 16px 0;
+}
+
+.next-target {
+    max-width: 1140px;
+    margin: auto;
+}
+
+.next-target .skills {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.next-target .skill-card {
+    display: flex;
+    border: 1px solid gray;
+    border-radius: 10px;
+    padding: 10px;
+}
+
+.next-target .skill-card img {
+   
+    margin-right: 15px;
+}
+
+.support {
+    background: url('/assets/handshake.jpg') no-repeat center;
+    background-size: cover;
+    text-align: center;
+    color: white;
+    max-width: 1140px;
+    margin: auto;
+    border-radius: 5px;
+}
+
+.support input {
+    width: 60%;
+    padding: 8px;
+    margin: 16px 0;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+.submit-btn {
+    background-color: white;
+    color: black;
+    border: none;
+    padding: 8px 32px;
+    cursor: pointer;
+    border-radius: 4px;
+}
+
+.submit-btn:hover {
+    background-color: orange;
+    color: #fff;
+}
+
+footer {
+    background-color: #333;
+    color: white;
+}
+
+footer .footer-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+    padding: 8px;
+    max-width: 1140px;
+    margin: auto;
+}
+
+.social-links img {
+    width: 24px;
+    margin: 0 0.5em;
 }
