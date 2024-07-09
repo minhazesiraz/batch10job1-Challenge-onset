@@ -77,15 +77,25 @@ https://stackoverflow.com/questions/29859864/no-repeat-center-center-vs-cover
     border-radius: 4px;
 }
 
-.web-dev {
-    padding: 32px;
+.web-dev-section {
+    /* padding: 32px; */
+    max-width: 1140px;
     margin: 16px auto;
     background: #ADC8F7;
     border-radius: 8px;
-    max-width: 1140px;
 }
 
-h2 {
+.web-dev {
+    padding: 32px;
+    /* margin: auto; */
+    /* background: #ADC8F7; */
+    /* border-radius: 8px; */
+    /* max-width: 1140px; */
+}
+
+h2,
+.web-dev .center,
+.next-target .center {
     text-align: center;
     margin-bottom: 16px;
 }
@@ -136,7 +146,7 @@ h2 {
 .next-target {
     max-width: 1140px;
     margin: auto;
-    text-align: center;
+    /* text-align: center; */
 }
 
 .next-target .skills {
